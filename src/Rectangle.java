@@ -13,7 +13,9 @@ public class Rectangle {
         this.x = x;
         this.y = y ;
 
-
+        if(((x >= 10 && x <= 30) || (x + length >= 5 && x + length <= 30)) && (y >= 5 || y - width >= 5) && (y <= 15 || y - width <= 15)){
+            touches = true;
+        }
 
 
 
