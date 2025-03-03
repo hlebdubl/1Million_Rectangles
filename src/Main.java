@@ -19,8 +19,9 @@ public class Main {
 
             rectangles.add(newRectangle);
 
-            if(newRectangle.isTouches());
-            totalInt ++;
+            if(newRectangle.isTouches()){
+                totalInt ++;
+            }
         }
 
 
