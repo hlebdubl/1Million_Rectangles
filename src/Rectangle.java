@@ -3,6 +3,9 @@ public class Rectangle {
     private int width;
     private int x;
     private int y;
+    private boolean touches = false;
+
+
 
     public Rectangle(int length, int width, int x, int y){
         this.length = length;
@@ -12,9 +15,12 @@ public class Rectangle {
 
 
 
+
+
     }
 
 
-
-
+    public boolean isTouches() {
+        return touches;
+    }
 }
