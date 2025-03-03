@@ -25,6 +25,11 @@ public class Main {
         }
 
 
-        System.out.println(((totalInt / 1000000) * 100) + "%");
+        double percent = (((((double)totalInt) / 1000000) * 100));
+
+        percent = Math.round(percent * 10.0) / 10.0;
+
+       System.out.println(percent + "%");
+
     }
 }
