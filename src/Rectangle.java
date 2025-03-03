@@ -17,8 +17,6 @@ public class Rectangle {
             touches = true;
         }
 
-
-
     }
 
 
