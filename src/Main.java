@@ -8,10 +8,10 @@ public class Main {
 
 
         for(int i = 0 ; i < 1000000; i ++){
-            int randomLength = (int) (Math.random() * 40) + 11;
-            int randomWidth = (int) (Math.random() * 5) +6;
-            int randomX =  (int) (Math.random() * 50) +1;
-            int randomY = (int) (Math.random() * 50) +1;
+            int randomLength = (int) (Math.random() * 41) + 10;
+            int randomWidth = (int) (Math.random() * 6) +5;
+            int randomX =  (int) (Math.random() * 51);
+            int randomY = (int) (Math.random() * 51);
 
 
             Rectangle newRectangle = new Rectangle(randomLength,randomWidth,randomX,randomY);
